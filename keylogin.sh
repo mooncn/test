@@ -1,12 +1,13 @@
 #!bin/bash
 #Author: mooncn
-#Blog: myxw.ml
+#Blog: mooncn.win
 #Date: 20190615
 #Purpose: one key for replace the SSH Authorization method .
 setuppublickey()
 {
-rpm -ivh http://xb1028-10066197.cos.myqcloud.com/1028/epel-release-7-5.noarch.rpm
-rpm -ivh http://xb1028-10066197.cos.myqcloud.com/1028/remi-release-7.rpm
+//rpm -ivh http://xb1028-10066197.cos.myqcloud.com/1028/epel-release-7-5.noarch.rpm
+//rpm -ivh http://xb1028-10066197.cos.myqcloud.com/1028/remi-release-7.rpm
+yum install iftop -y
 yum install nload -y
 cd /root
 mkdir .ssh
